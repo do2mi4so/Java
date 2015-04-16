@@ -4,6 +4,10 @@ Node *next;
 }
 
 //Node print Node in iteration manner
+
+Node *printNode(Node *e, int value){
+
+}
 //Node print Node in Recursion manner
 
 int main(){
