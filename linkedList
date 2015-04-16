@@ -1,0 +1,12 @@
+Node (){
+int data;
+Node *next;
+}
+
+//Node print Node in iteration manner
+//Node print Node in Recursion manner
+
+int main(){
+//create myNode
+//print Node
+}
