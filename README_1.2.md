@@ -4,5 +4,6 @@
 //possible algorithms you can use, redo everything in data structures in java
 //need to have a set of libararies you are comforable with
 //need to be comfortable with PC^2, and it can be installed locally
+//each progress add 0.1, after x.9 it is x+1.0 where x is an integer
 
 
