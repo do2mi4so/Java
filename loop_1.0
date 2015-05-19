@@ -1,1 +1,55 @@
 //http://www.tutorialspoint.com/java/java_loop_control.htm
+//while loop
+
+package test4;
+
+import java.io.*;
+
+public class test4 {
+
+	   public static void main(String args[]) {
+	      int x = 10;
+
+	      while( x < 20 ) {
+	         System.out.print("value of x : " + x );
+	         x++;
+	         System.out.print("\n");
+	      }
+	   }
+	}
+
+//do while
+package test4;
+
+import java.io.*;
+
+public class test4 {
+
+
+		   public static void main(String args[]){
+		      int x = 10;
+
+		      do{
+		         System.out.print("value of x : " + x );
+		         x++;
+		         System.out.print("\n");
+		      }while( x < 20 );
+		   }
+		}
+		
+//for
+
+package test4;
+
+import java.io.*;
+
+public class test4 {
+
+	   public static void main(String args[]) {
+
+	      for(int x = 10; x < 20; x = x+1) {
+	         System.out.print("value of x : " + x );
+	         System.out.print("\n");
+	      }
+	   }
+	}
