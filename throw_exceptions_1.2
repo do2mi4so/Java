@@ -1,0 +1,21 @@
+//throw time exceptions
+//stack overflows
+//empty stack
+//https://docs.oracle.com/javase/tutorial/essential/exceptions/throwing.html
+//http://beginnersbook.com/2013/04/throw-in-java/
+//example_1
+
+package test1;
+import java.io.*;
+public class test1{
+
+   public static void main(String args[]){
+      try{
+         int a[] = new int[2];
+         System.out.println("Access element three :" + a[3]);
+      }catch(ArrayIndexOutOfBoundsException e){
+         System.out.println("Exception thrown  :" + e);
+      }
+      System.out.println("Out of the block");
+   }
+}
