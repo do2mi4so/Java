@@ -21,23 +21,25 @@ average=sum/sizeof_arry[];
 
 /*
 
+
 package test4;
 
 import java.io.*;
 
 public class test4 {
 	public static void main(String args[]){
-		int n;
+		int n=4;
 		int a[]=new int[n];
 		System.out.println("The numbers of entires :" +n);
-		int sum;
+		int sum=0;
 		int i=0;
-		int average=sum+a[i];
+		int average=sum/n;
 		do{
+			sum=sum+a[i];
 			i++;
-			}while(i<n)
+			}while(i<n);
+		
 		System.out.println("The average is :" +average);
 	}
 }
-
 */
