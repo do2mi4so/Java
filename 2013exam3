@@ -1,0 +1,12 @@
+main(arr[], int i, int j, int k)
+{
+int i=2;
+dictionary{0, 1}
+gcd(0,1)
+if d(0) =  d(1), then return d(0);
+if d(0) is bigger than d(1), then return {d(1)-d(0), d(1)}
+if d(0) is less then d(1), then return return {d(0), d(1) - d (0)}
+gcd(int j){
+
+}
+}
