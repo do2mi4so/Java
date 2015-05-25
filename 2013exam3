@@ -21,6 +21,40 @@ System.out.println("The gcd is" +arr[-1]);
 import java.lang.io*;
 public class{
   public static void main(String args[]){
-    
+      int array A =  int a[];
+      int arry B=int b[];
+      int a[0]=1;
+      int a[1]=2;
+      int i;
+      int temp;
+      int gcd(a[0], a[1]){
+      //how to create a method in java
+        if (a[0]< a[1]){
+          for (i =0 to i = a[0]) {
+            if (a[0] mod i = 0) {
+                int array B=int B[i];
+              }
+            System.out.println("the greatest common factor is " + max.B[i]);
+            }
+          }
+        else if (a[0] > a[1]) {
+        for ( i=0 to i = a[1]) {
+                    if (a[0] mod i = 0) {
+                int array B=int B[i];
+              }
+            System.out.println("the greatest common factor is " + max.B[i]);
+            }
+        }
+        else ( a[0] = a[1]){
+        for ( i=0 to i = a[1]) {
+             if (a[0] mod i = 0) {
+             int array B=int B[i];
+              }
+            System.out.println("the greatest common factor is " + max.B[i]);
+            }
+        }
+        }
+    }
     }
     
+*/
