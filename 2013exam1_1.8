@@ -20,8 +20,6 @@ average=sum/sizeof_arry[];
 */
 
 /*
-
-
 package test4;
 
 import java.io.*;
@@ -34,20 +32,16 @@ public class test4 {
 		a[1]=2;
 		a[2]=3;
 		a[3]=4;
-		//how to caputre and display a list/array
 		System.out.println("The numbers of entires :" +n);
 		System.out.println("The list of numbers :" +a);
 		int sum=0;
 		int i=0;
-		int average=sum/n; // output might not be correct due to the type variables of "sum"
+		int average=sum/n; 
 		do{
 			sum=sum+a[i]; //can't sum, something wrong with the variables
 			i++;
 			}while(i<n);
-		//for (int i = 0; i < intArray.length; i++) {
-   System.out.print(intArray[i] + ", ");
 }
-//
 		System.out.println("The average is :" +average);
 	}
 }
