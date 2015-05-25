@@ -1,3 +1,4 @@
+/*
 main(arr[], int i, int j, int k)
 {
 int i=2;
@@ -14,3 +15,12 @@ arr {i}
 System.out.println("The gcd is" +arr[-1]);
 }
 }
+*/
+
+/*
+import java.lang.io*;
+public class{
+  public static void main(String args[]){
+    
+    }
+    
