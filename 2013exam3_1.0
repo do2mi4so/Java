@@ -21,8 +21,8 @@ System.out.println("The gcd is" +arr[-1]);
 import java.lang.io*;
 public class{
   public static void main(String args[]){
-      int array A =  int a[];
-      int arry B=int b[];
+      int A[];
+      int B[];
       int a[0]=1;
       int a[1]=2;
       int i;
