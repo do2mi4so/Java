@@ -2,3 +2,6 @@
 //how to declare a variable and assign value
 //local variables and global variables
 //reasons of using private variables/classes
+//reasons of using protected variables
+//http://www.javacoffeebreak.com/faq/faq0002.html
+//http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
