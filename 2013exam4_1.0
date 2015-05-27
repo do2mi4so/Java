@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class mineGuess{
+  public static void main(String args[]){
+    int n, m=0; int c.d;
+    Scanner in=new Scanner(Steym.in);
+    System.out.println("Enter the number of rows and columns of the mine");
+    n=in.nextInt();
+    m=in.nextInt();
+    
+    int mine[][]=new int[n][m];
+    System.out.println("Enter the element of the mine");
+    
+    for (c=0; c<m; c++)
+      for (d=0; d<n; d++)
+        mine [c][d] = in.nextInt();
+        
+    int guessNum = 0;
+    char mine='x';
+    int i=0;
+    int j=0;
+    for (j=0 to j=n)
+      for (i=0 to i=n){
+        if (row[n]=1) {
+          guessNum = 'X';
+        } else {
+      System.out.println(....);
+      }
+    }
+  }
+}
