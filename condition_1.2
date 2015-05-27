@@ -3,25 +3,19 @@
 //https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
 //if-then-else if-else
-
-class IfElseDemo {
-  public static void main(string[] args) {
-    int testscore = 76;
-    char grade;
-    
-    if (testscore >=90){
-      grade= 'A';
-    } else if (testscore >= 80 ) {
-      grade = 'B';
-    } else if (testscore >= 70) {
-      grade = 'C';
-    } else if (testscore >= 60) {
-      grade = 'D';
-    } else {
-      grade = 'F';
-    }
-    System.out.println("Grade = " +grade);
-  }
+package test4;
+public class test4{
+	public static void main(String args[]){
+		int testscore = 76;
+		char grade =0;
+		//in eclipse, you actually have to initialize the grade
+		if (testscore>90) {
+			grade='A';
+		} else if (testscore < 80){
+			grade ='B';
+		}
+		System.out.println("The student has a grade " + grade);
+	}
 }
 
 //switch statement
