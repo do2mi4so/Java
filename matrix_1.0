@@ -1,0 +1,25 @@
+//http://mathbits.com/MathBits/Java/arrays/Matrices.htm
+//http://introcs.cs.princeton.edu/java/22library/Matrix.java.html
+//http://docs.oracle.com/cd/E11882_01/appdev.112/e11829/oracle/spatial/network/lod/Matrix.html
+//https://docs.oracle.com/javase/tutorial/reflect/special/arraySetGet.html
+//http://math.nist.gov/javanumerics/jama/doc/Jama/Matrix.html
+//http://www.programmingsimplified.com/java/source-code/java-program-multiply-two-matrices
+
+//enter the size and the matrix
+import java.util.Scanner;
+
+public class testing5{
+public class static void main(Strings args[]){
+  int p, q=0;
+  Scanner in = new Scanner(System.in);
+  System.out.println("Enter the number of rows and columns of the Mine";
+  m=in.nextInt();
+  n=in.nextInt();
+  int mine [][]=new int [p][q];
+  System.out.println("Enter the element of the first matrix");
+  
+  for (c=0; c<m; c++)
+    for (d=0; d<n; d++)
+      mine [c][d] = in.nextInt();
+}
+}
