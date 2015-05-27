@@ -1,0 +1,22 @@
+public class mineGuess{
+  public static void main(String args[]){
+    int n;
+    int m;
+    int [n][m];
+    int row[n];
+    int col[m];
+    int guessNum = 0;
+    char mine='x';
+    int i=0;
+    int j=0;
+    for (j=0 to j=n){
+    for (i=0 to i=n){
+      if (row[n]=1) {
+        guessNum = 'X';
+        } else {
+      System.out.println(....);
+      }
+      }
+    }
+  }
+}
