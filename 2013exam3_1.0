@@ -3,16 +3,19 @@ public class{
   public static void main(String args[]){
       int A[];
       int B[];
-      int a[0]=1;
-      int a[1]=2;
+      int A[0]=1;
+      int A[1]=2;
       int i;
       int temp;
-      int gcd(a[0], a[1]){
-      //how to create a method in java
-        if (a[0]< a[1]){
-          for (i =0 to i = a[0]) {
+      class gcd{
+            if (a[0]< a[1]){
+              for (i =0 to i = a[0]) {
             if (a[0] mod i = 0) {
-                int array B=int B[i];
+              for (j=0 to j=a[0]{
+                B[j]=i;
+                j++;
+                i=i*i;
+                }
               }
             System.out.println("the greatest common factor is " + max.B[i]);
             }
