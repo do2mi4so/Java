@@ -4,6 +4,7 @@
 //https://docs.oracle.com/javase/tutorial/reflect/special/arraySetGet.html
 //http://math.nist.gov/javanumerics/jama/doc/Jama/Matrix.html
 //http://www.programmingsimplified.com/java/source-code/java-program-multiply-two-matrices
+//http://www.programmingsimplified.com/java/source-code/java-program-add-matrices
 
 //enter the size and the matrix
 import java.util.Scanner;
