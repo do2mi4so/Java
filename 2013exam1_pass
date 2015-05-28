@@ -15,8 +15,6 @@ public class testing5 {
 		//a better way to print out
 		int sum=0;
 		int i=0;
-		
-		//the type of variables
 		do{
 			sum=sum+a[i]; //can't sum, something wrong with the variables
 			i=i+1;
