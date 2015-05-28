@@ -8,5 +8,5 @@
 //it looks like 1.5 is a level of efforts to finish learning a topic. 
 //http://www.programmingsimplified.com/
 //if the program gets long, refer to a package
-
+//more practice with input and output, manipulation of variables, operations and operations on matrices
 
