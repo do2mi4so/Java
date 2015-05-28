@@ -1,8 +1,8 @@
-package test4;
+package testing5;
 
 import java.io.*;
 
-public class test4 {
+public class testing5 {
 	public static void main(String args[]){
 		int n=4;
 		int a[]=new int[n];
@@ -11,18 +11,17 @@ public class test4 {
 		a[2]=3;
 		a[3]=4;
 		System.out.println("The numbers of entires :" +n);
-		System.out.println("The list of numbers :" +a[0],a[1],a[2],a[3]);
-		//better way to print
+		System.out.println("The list of numbers :" +a[0]  +a[1] +a[2] +a[3] );
+		//a better way to print out
 		int sum=0;
 		int i=0;
-		int average=sum/n; 
+		
 		//the type of variables
 		do{
 			sum=sum+a[i]; //can't sum, something wrong with the variables
-			i++;
+			i=i+1;
 			}while(i<n);
-}
+		int average=sum/n; 
 		System.out.println("The average is :" +average);
 	}
 }
-
