@@ -9,23 +9,27 @@ public class mineGuess{
     m=in.nextInt();
     
     int mine[][]=new int[n][m];
+    char mineGuess[][] = new char[n][m];
     System.out.println("Enter the element of the mine");
     
     for (c=0; c<m; c++)
       for (d=0; d<n; d++)
         mine [c][d] = in.nextInt();
         
-    int guessNum = 0;
-    char mine='x';
+    char guessNum = NULL;
     int i=0;
     int j=0;
-    for (j=0 to j=n)
+    for (j=0 to j=m)
       for (i=0 to i=n){
-        if (row[n]=1) {
-          guessNum = 'X';
-        } else {
-      System.out.println(....);
-      }
+        if (mine[n]=1) {
+          guessNum = "X";
+          mineGuess[n]="X"
+        } else if (min[n] =0){
+          mineGuess[n]="-"
+        } else{
+          mineGuess[n]= mine[n];
+        }
     }
-  }
+    System.out.println("The guessed mine is " + mineGuess);
+    //how to print a n*m matrix
 }
