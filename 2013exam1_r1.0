@@ -1,8 +1,9 @@
-package testing5;
+
+package testing6;
 
 import java.io.*;
 
-public class testing5 {
+public class testing6 {
 	public static void main(String args[]){
 		int n=4;
 		int a[]=new int[n];
@@ -10,8 +11,8 @@ public class testing5 {
 		a[1]=2;
 		a[2]=3;
 		a[3]=4;
-		System.out.println("The numbers of entires :" +n);
-		System.out.println("The list of numbers :" +a[0]  +a[1] +a[2] +a[3] );
+		System.out.println("The numbers of entires : " +n);
+		System.out.println("The list of numbers :" +a[0] +" " +a[1]  +" " +a[2]  +" " +a[3] +" " );
 		//a better way to print out
 		int sum=0;
 		int i=0;
@@ -21,6 +22,6 @@ public class testing5 {
 			}while(i<n);
 		int average=sum/n; 
 		//try float average
-		System.out.println("The average is :" +average);
+		System.out.println("The average is :" +" " +average);
 	}
 }
