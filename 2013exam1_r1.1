@@ -1,12 +1,12 @@
 
 package testing6;
 
-import java.io.*;
+import java.text.*;
 
 public class testing6 {
 	public static void main(String args[]){
 		int n=4;
-		int a[]=new int[n];
+		double a[]=new double[n];
 		a[0]=1;
 		a[1]=2;
 		a[2]=3;
@@ -14,14 +14,14 @@ public class testing6 {
 		System.out.println("The numbers of entires : " +n);
 		System.out.println("The list of numbers :" +a[0] +" " +a[1]  +" " +a[2]  +" " +a[3] +" " );
 		//a better way to print out
-		int sum=0;
+		double sum=0;
 		int i=0;
 		do{
 			sum=sum+a[i]; //can't sum, something wrong with the variables
 			i=i+1;
 			}while(i<n);
-		int average=sum/n; 
-		//try float average
-		System.out.println("The average is :" +" " +average);
+		DecimalFormat num = new DecimalFormat(", ###.##");
+		double average=sum/n; 
+		System.out.println("The average is :" +" " +num.format(average));
 	}
 }
