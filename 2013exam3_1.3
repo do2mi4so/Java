@@ -1,0 +1,22 @@
+import java.lang.io*;
+import java.math.*;
+//look up GCD through java API instead
+
+
+public class testin6{
+  public static void main(String [] args){
+  int a=10;
+  int b=20;
+  if (a<b){
+    int gCF = gcd(a,b-a);
+    System.out.println("" +gCF);
+  }else if (a>b){
+    int gCF = gcd(a-b,b);
+    System.out.println("" +gCF);
+  }else if (a=b){
+    int gCF= gcd(a,a);
+    System.out.println("" +gCF);
+  }
+}
+    
+
