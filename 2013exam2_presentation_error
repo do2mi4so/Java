@@ -6,6 +6,8 @@ public static void main(String args[]){
     String input="abcdefghijk";
    	char key=input.charAt(0);
    	//change this but the variable types ....ugh
+   	//why car
+   	//use something without indexing the string
     int sum=0;
     int i=0;
     do {
