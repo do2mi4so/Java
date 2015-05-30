@@ -13,3 +13,43 @@ public class testing6{
 		}
 	}
 }
+
+//loop
+package testing6;
+
+public class testing6{
+	public static void main(String args[]){
+		int a=10;
+		int i=0;
+		while (i<10){
+			i++;
+			System.out.println("" +i);
+		}
+	}
+}
+
+package testing6;
+
+public class testing6{
+	public static void main(String args[]){
+		int a=10;
+		int i=0;
+		do {
+			i++;
+			System.out.println("" +i);
+		} while(i<10);
+	} 
+}
+
+package testing6;
+
+public class testing6{
+	public static void main(String args[]){
+		int a=10;
+		int i=0;
+		for (i=0; i<11; i++){
+		//it is i<11 here
+			System.out.println("" +i);
+		}
+	} 
+}
