@@ -1,1 +1,15 @@
+//condition
+package testing6;
 
+public class testing6{
+	public static void main(String [] args){
+		int a=12;
+		if (a<11){
+			System.out.println("" +a);
+		}else if(a>11){
+			System.out.println("bigger than 11");
+		}else{
+			System.out.println("" +a);
+		}
+	}
+}
