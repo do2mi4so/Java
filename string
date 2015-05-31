@@ -1,0 +1,15 @@
+public class StringConstructors
+{
+  public static void main(String[] args)
+    {
+      String str1=new String();
+      String str2=new String("Good Morning");
+      char data []={'H', 'O', 'T'};
+      String str3=new String(data);
+      String str4=new String(data, 4, 3)
+      byte bytedata[]={ (byte) '1', (byte) 'i'};
+      String str5=new String(bytedata);
+      
+      StringBuffer sb=new StringBuffer("Have a great day!");
+      }
+}
