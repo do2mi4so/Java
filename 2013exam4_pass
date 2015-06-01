@@ -1,0 +1,25 @@
+package testing6;
+
+
+public class testing6{
+  public static void main(String args[]){
+    int i, j;
+    i = 4;
+    j = 4;
+    
+    System.out.println(" " +i +" "+j);
+    
+    char val[][]={{1,1,1,1}, {1,1,1,1}, {0,0,0,0}, {1,1,1,1}};
+    
+    for (i=0; i<val.length; i++)
+      for (j=0; j<val [i].length ; j++)
+      { 
+        if (val[i][j]== 1) {
+          System.out.println("" + "X");
+          }
+        else{
+          System.out.println("" +val[i][j]);
+        }
+      }
+    }
+}
