@@ -1,8 +1,7 @@
-//iterate to add / delete nodes
-//add head/delete tail
 //find a node
+//add or delete a tail
 
-
+//add head
 class UseNameTele
 {
   public static void main(String args[])
@@ -17,5 +16,34 @@ class UseNameTele
     System.out.println( (head.getLink()).getName());
     System.out.println( (r1.getLink().getName());
     System.out.println( (r2.getLink().getName());
+  }
+}
+
+//iteration, reversion
+import java.util.*;
+class ShowLinkedList
+{
+  public static void main(String args[])
+  {
+    int j;
+    LinkedList names = new LinkedList();
+    names.add("A");
+    names.add("B"); 
+    names.add("C");
+    
+    ListIterator i=names.listIterator();
+    Collections.sort(names);
+    
+    System.out.println("\n The List displayed by a forward iteraction value is :");
+    while (i.hashNext())
+    {
+      System.out.println(i.next());
+    }
+    
+    System.out.println("\n The list displayed by a reverse iteraction value is:");
+    while (i.hasPrevious())
+    {
+      System.out.println(i.previous());
+    }
   }
 }
