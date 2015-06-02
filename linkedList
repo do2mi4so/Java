@@ -3,3 +3,19 @@
 //find a node
 
 
+class UseNameTele
+{
+  public static void main(String args[])
+  { 
+    NameTele head = new NameTele("xx", "xx");
+    NameTele r1 = new NameTele("Aceme, Sam", "(555) 898 - 2391");
+    Nametele r2 = new NameTele("Dolan, Edit", "(555) 682 -3104");
+    
+    head.setLink(r1);
+    r1.setLink(r2);
+    
+    System.out.println( (head.getLink()).getName());
+    System.out.println( (r1.getLink().getName());
+    System.out.println( (r2.getLink().getName());
+  }
+}
