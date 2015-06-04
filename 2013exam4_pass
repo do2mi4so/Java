@@ -21,6 +21,7 @@ public class testing6{
           }
         else{
           System.out.println(val[i][j] +" ");
+          //the requirements asks for different conditions
         }
       }
       }
