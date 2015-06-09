@@ -1,0 +1,21 @@
+package testing6;
+
+
+public class testing6{
+	public static void main(String args[]){
+		int n=2;
+		int T[]=new int[2];
+		int gcd;
+		T[0]=1;
+		T[1]=2;
+		if (T[0]<T[1]){
+			gcd=(T[0]%T[1]);
+		}else if(T[0]==T[1]){
+			gcd=T[0];
+		}else{ 
+			gcd=(T[1]%T[0]);
+		}
+		System.out.println("The greatest common factor is " +gcd);
+	}
+}
+
