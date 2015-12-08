@@ -1,0 +1,14 @@
+/* 
+API: http://poi.apache.org/spreadsheet/index.html
+solutions: http://www.360doc.com/content/12/0607/12/8189294_216588099.shtml
+*/
+
+/*
+Goal: 
+1. open excel
+2. query data from column and then row
+*/
+
+/*
+The role for java is to utlize SQL/others to query the data from the spreadsheet.
+*/
