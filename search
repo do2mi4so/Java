@@ -1,0 +1,39 @@
+/*
+http://lucy.apache.org/
+http://dev.mysql.com/doc/refman/5.1/en/fulltext-search.html
+http://www.filebuzz.com/findsoftware/Java_Database_Search_Engine/1.html
+http://www.cs.swarthmore.edu/~newhall/sigcse02/cs2project.html
+
+http://www.cs.swarthmore.edu/~newhall/sigcse02/part3.html
+
+Databases
+
+If your website stores its data in a database, you may have the option of using full-text catalogues. 
+A full-text catalogue indexes one or more fields in a table for searching. 
+You can then execute an SQL query which includes a search query. 
+The database returns records that are relevant your search.
+FTCs are convenient because they automatically update as your data changes and they don't require additional libraries. 
+However, their functionality is often limited in terms of analysis, they are not extensible, and their query languages are often not what people are used to. 
+And since each catalogue is limited to a table, they may not work for you at all if your data is related through many tables. 
+For more information, check out Mysql's Full Text documentation. 
+
+http://52opencourse.com/37/udacity-%E5%85%AC%E5%BC%80%E8%AF%BE-cs101-building-a-search-engine-wiki%E9%93%BE%E6%8E%A5
+
+*/
+
+/*
+
+Goal:
+1. build a search engine for common terms
+
+Steps:
+1. build a common analyzer
+2. build a keyword database
+
+*/
+
+/*
+
+Java is still a tool for front -end
+
+*/
