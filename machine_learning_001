@@ -1,0 +1,29 @@
+/*
+
+books: http://developer.51cto.com/art/201409/452223.htm
+
+front-ends: http://www.jdon.com/bigdata/java-machine-learning.html
+
+front-ends 2: http://machinelearningmastery.com/java-machine-learning/
+
+Stanford: http://cs229.stanford.edu/
+
+*/
+
+/*
+
+Goal 1 for machine learning, to find out what place has the most users. 
+target variable: location
+independent variable: users
+
+Step 1: plot data using SAS
+Step 2: use different models to find the best fit line
+Step 3: compare different models
+
+*/
+
+/*
+
+The role of java here is the utilize the SAS files for prediction and bring the results to the front end.
+
+*/
