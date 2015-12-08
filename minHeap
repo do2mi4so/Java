@@ -1,4 +1,12 @@
 package testing6;
+/*
+
+What is a heap?
+How to sort a heap?
+How to put a heap into an array?
+
+*/
+
 public class testing6{
   public static void main(String [] args){
     //create an array of numbers
