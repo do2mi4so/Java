@@ -12,3 +12,4 @@
 //review APIs and how you receive from the instructors
 //https://csmasters.uchicago.edu/page/programming-prerequisites
 //http://en.wikipedia.org/wiki/List_of_Java_keywords
+# hash_: https://docs.oracle.com/javase/7/docs/api/java/util/Hashtable.html
